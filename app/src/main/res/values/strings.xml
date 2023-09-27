@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MVI</string>
+    <string name="id_info" formatted="true">Id: %d</string>
+    <string name="nickname_info" formatted="true">Nickname: %s</string>
+    <string name="latitude_info" formatted="true">Latitude: %s</string>
+    <string name="longitude_info" formatted="true">Longitude: %s</string>
+    <string name="leave_fragment">Leave Fragment</string>
+    <string name="actualize">Actualize</string>
+    <string name="randomize_id">Randomize Id</string>
+</resources>
