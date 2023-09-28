@@ -61,10 +61,11 @@ class InfoFragment : Fragment(), OnClickListener {
 
     private fun FragmentInfoBinding.updateUserInfo(userState: UserState) {
         with(userState) {
-            idInfo.text = this.id.toString()
-            nicknameInfo.text = this.nickname
-            latitudeInfo.text = this.location.latitude.toString()
-            longitudeInfo.text = this.location.longitude.toString()
+            idInfo.text = getString(R.string.id_info, this.id.toString())
+            nicknameInfo.text = getString(R.string.nickname_info, this.nickname)
+            latitudeInfo.text = getString(R.string.latitude_info, this.location.latitude.toString())
+            longitudeInfo.text =
+                getString(R.string.longitude_info, this.location.longitude.toString())
         }
     }
 
